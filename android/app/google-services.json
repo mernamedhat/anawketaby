@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "1071405312761",
+    "project_id": "dev-anawketaby",
+    "storage_bucket": "dev-anawketaby.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071405312761:android:ad055df9b7360185f2d028",
+        "android_client_info": {
+          "package_name": "com.powerfromabove.anawketaby.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071405312761-0a7p1hj05rgq50eu3dhoj03677lav9p7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "392ff36adeff1763700b915444c7a0df2617b3dc"
+          }
+        },
+        {
+          "client_id": "1071405312761-1arvsqh9ttqpiocp1a6bhs2hcqb7e4ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "e5988a4e746a7fcb4d85beb22ae2c78edfd4edd8"
+          }
+        },
+        {
+          "client_id": "1071405312761-2loipj6inuu94gnqbk7752vd1fmhqtd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "3a78c3d56e2b9f8b2e3263045e7f6266c42cace7"
+          }
+        },
+        {
+          "client_id": "1071405312761-3sfstvldto270h33ucjn7j6laukcvdn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "6890c857056633292cf02df992e34c0341e5d681"
+          }
+        },
+        {
+          "client_id": "1071405312761-5gijcm5fm0sn2iusdrpkglck91ri3a4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "04548b0ffc3622e6b4c0c5c63aeee52ad9ef94ba"
+          }
+        },
+        {
+          "client_id": "1071405312761-bb36u7rmrbd3orqnjlf3804u75p5ibak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.anawketaby.dev",
+            "certificate_hash": "a59cabe6fcd584617dc060ba150524ec74f42ab5"
+          }
+        },
+        {
+          "client_id": "1071405312761-qrlot2mquga18ss2ahq9kdhd9ckeq6lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMjonSXJOjswVTMoh-C3GaO36G3ZlUdbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071405312761-ggirp9okdvh4ivij898u2fs4v4ld4u83.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071405312761-cs52mm8u7sdn9mie6jke3vi8e0gv931g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.powerfromabove.anawketaby.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071405312761:android:fe03705adef4d562f2d028",
+        "android_client_info": {
+          "package_name": "com.powerfromabove.ketaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071405312761-gdus5fr1l4fiod2sfsti37t5vs09ll2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerfromabove.ketaby",
+            "certificate_hash": "e5988a4e746a7fcb4d85beb22ae2c78edfd4edd8"
+          }
+        },
+        {
+          "client_id": "1071405312761-qrlot2mquga18ss2ahq9kdhd9ckeq6lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMjonSXJOjswVTMoh-C3GaO36G3ZlUdbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071405312761-ggirp9okdvh4ivij898u2fs4v4ld4u83.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071405312761-cs52mm8u7sdn9mie6jke3vi8e0gv931g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.powerfromabove.anawketaby.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,245 @@
+# Working with Flutter 3.3.x
+name: anawketaby
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+
+# Dev Versions
+#version: 1.1.2+18
+
+# Prod Versions
+version: 1.1.2+22
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
+#dependencies:
+#  flutter:
+#    sdk: flutter
+#  flutter_localizations:
+#    sdk: flutter
+#
+#  cupertino_icons: ^1.0.6
+#  flutter_svg: ^2.0.10+1
+#
+#  # Firebase
+#  firebase_core: ^3.13.0
+#  firebase_analytics: ^11.0.0
+#  firebase_auth: ^5.5.3
+#  cloud_firestore: ^5.6.6
+#  firebase_storage: ^12.0.0
+#  firebase_dynamic_links: ^6.0.0
+#  firebase_messaging: ^15.0.0
+#  cloud_functions: ^5.0.0
+#  firebase_in_app_messaging: ^0.8.1+5
+#
+#  # Auth providers
+#  google_sign_in: ^6.2.1
+#  flutter_facebook_auth: ^7.1.1
+#  sign_in_with_apple: ^4.2.0
+#
+#  # State management
+#  provider: ^6.1.2
+#  get: ^4.6.6
+#
+#  # Preferences & utilities
+#  shared_preferences: ^2.2.2
+#  intl: ^0.19.0
+#  connectivity_plus: ^5.0.2
+#
+#  # UI & animations
+#  pin_code_fields: ^8.0.1
+#  flutter_countdown_timer: ^4.1.0
+#  auto_size_text: ^3.0.0
+#  timer_count_down: ^2.2.1
+#  percent_indicator: ^4.2.3
+#  reorderables: ^0.5.1
+#  awesome_dialog: ^3.1.0
+#  extended_image: ^9.0.1
+#  prompt_dialog: ^1.0.17
+#  im_stepper: ^1.0.1+1
+#  fluttertoast: ^8.2.4
+#  simple_ripple_animation: ^0.0.3
+#
+#  # File handling
+#  file_picker: ^6.1.1
+#  screenshot: ^3.0.0
+#  path_provider: ^2.1.2
+#
+#  # Social sharing
+#  clipboard: ^0.1.3
+#  share_plus: ^11.0.0
+##  social_share: ^2.2.1
+#
+#  # Audio
+#  just_audio: ^0.9.37
+#
+##   App info & review
+#  package_info_plus: ^8.3.0
+#  open_store: ^0.4.0
+#  in_app_review: ^2.0.7
+#
+#  # Network & time
+#  ntp: ^2.0.0
+#  async: ^2.11.0
+#  country_code_picker: ^3.0.1
+#  url_launcher: ^6.2.5
+#  # Sign in UI
+#  flutter_signin_button: ^2.0.0
+##
+##  # Data & collection
+#  collection: ^1.18.0
+##
+##  # Deep links
+#  uni_links: ^0.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # For Localizations.
+  flutter_localizations:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+  # For SVG images and icons.
+  flutter_svg: ^2.1.0
+  # Firebase packages
+  firebase_core: ^3.13.0
+  firebase_analytics: ^11.4.5
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  firebase_storage: ^12.4.5
+  firebase_dynamic_links: ^6.1.5
+  firebase_messaging: ^15.2.5
+  cloud_functions: ^5.5.0
+  firebase_in_app_messaging: ^0.8.1+5
+  # Google sign in
+  google_sign_in: ^6.3.0
+  # Facebook Login
+  flutter_facebook_auth: ^7.1.1
+  # Apple Login
+  sign_in_with_apple: ^7.0.1
+  # Provider to state management
+  provider: ^6.0.4
+  # Get to find context from everywhere
+  get: ^4.6.5
+  # Shared pref
+  shared_preferences: ^2.0.15
+  # Date Format
+  intl: ^0.19.0
+  # For internet connectivity check
+  # connectivity: 3.0.2
+  connectivity_plus: ^6.1.4
+  # Pin for code
+  pin_code_fields: ^8.0.1
+  # Count time down
+  flutter_countdown_timer: ^4.1.0
+  # Fitted Text
+  auto_size_text: ^3.0.0
+  # Countdown widget
+  timer_count_down: ^2.2.1
+  # Percent indicator
+  percent_indicator: ^4.2.2
+  # Reorderable items
+  reorderables: ^0.6.0
+  # Awesome Dialogs
+  awesome_dialog: ^3.0.2
+  # Network Image
+  extended_image: ^9.0.1
+  # Ask user for value dialog
+  prompt_dialog: ^1.0.17
+  # File and Image pickers
+  file_picker: ^8.3.2
+  # Stepper for reporting screen
+  im_stepper: ^1.0.1+1
+  # Copy and share
+  clipboard: ^0.1.3
+  share_plus: ^11.0.0
+  social_share: ^2.2.1
+  # Sounds play from assets
+  just_audio: ^0.9.30
+  # Package info
+  package_info_plus: ^8.3.0
+  # Open store
+  open_store: ^0.5.0
+  # App Review
+  in_app_review: ^2.0.7
+  # Real Time Check
+  ntp: ^2.0.0
+  # Sign in buttons
+  flutter_signin_button: ^2.0.0
+  # For Multiple Streams
+  async: ^2.8.2
+  # Country Codes Picker
+  country_code_picker: ^3.3.0
+  # Open external links
+  url_launcher: ^6.3.1
+  # Toast messages
+  fluttertoast: ^8.1.1
+  collection: ^1.15.0
+  # Ripple
+  simple_ripple_animation: ^0.1.0
+  # Taking screenshot
+  screenshot: ^3.0.0
+  # Path provider
+  path_provider: ^2.0.11
+  # For DeepLinks
+  uni_links: ^0.5.1
+  http: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  intl_translation: 0.17.10+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icons/
+    - assets/languages/
+    - assets/sounds/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: fonts/tajawal/Tajawal-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/tajawal/Tajawal-Light.ttf
+          weight: 300
+        - asset: fonts/tajawal/Tajawal-Regular.ttf
+          weight: 400
+        - asset: fonts/tajawal/Tajawal-Medium.ttf
+          weight: 500
+        - asset: fonts/tajawal/Tajawal-Bold.ttf
+          weight: 700
+        - asset: fonts/tajawal/Tajawal-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/tajawal/Tajawal-Black.ttf
+          weight: 900
+    - family: GE SS Unique
+      fonts:
+        - asset: fonts/GE SS Unique Light.otf
+        - asset: fonts/GE SS Unique Bold.otf
+          weight: 700
+    - family: Rakkas
+      fonts:
+        - asset: fonts/Rakkas Regular.ttf
