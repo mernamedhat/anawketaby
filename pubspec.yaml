@@ -119,6 +119,7 @@ dependencies:
   cupertino_icons: ^1.0.5
   # For SVG images and icons.
   flutter_svg: ^2.1.0
+
   # Firebase packages
   firebase_core: ^3.13.0
   firebase_analytics: ^11.4.5
@@ -171,7 +172,7 @@ dependencies:
   # Copy and share
   clipboard: ^0.1.3
   share_plus: ^11.0.0
-  social_share: ^2.2.1
+  social_share: ^2.3.1
   # Sounds play from assets
   just_audio: ^0.9.30
   # Package info
